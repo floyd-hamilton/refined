@@ -83,7 +83,7 @@ library
     build-depends: aeson >= 0.9 && < 1.5
     cpp-options: -DHAVE_AESON
   if flag(QuickCheck)
-    build-depends: QuickCheck >= 2.1 && < 2.13
+    build-depends: QuickCheck >= 2.1 && < 2.13.3
     cpp-options: -DHAVE_QUICKCHECK
 
 test-suite doctest
